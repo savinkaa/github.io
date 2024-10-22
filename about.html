@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Restaurant & Drinks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        .navbar .menu {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar .menu li {
+            margin: 0 15px;
+        }
+        .navbar .menu li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .navbar .menu li a:hover {
+            text-decoration: underline;
+        }
+        .header {
+            background: url('about-us-header.jpg') no-repeat center center/cover;
+            height: 50px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .header h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+        .content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .content h2 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 16px;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .team {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .team-member {
+            margin: 20px;
+            text-align: center;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .team-member h3 {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+        .team-member p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">KEL 7</div>
+        <ul class="menu">
+            <li><a href="cafe.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </div>
+
+    <div class="header">
+        <h1>About Us</h1>
+    </div>
+
+    <div class="content">
+        <h2>Welcome to Our Restaurant!</h2>
+        <p>
+            At STEAM, we believe in serving delicious food made from the freshest ingredients.
+            Our team is dedicated to providing an exceptional dining experience for all our guests.
+            Whether you are here for a quick lunch or a special dinner, we have something for everyone!
+        </p>
+        
+        <h2>Our Mission</h2>
+        <p>
+            Our mission is to create a warm and inviting atmosphere where friends and families can gather
+            to enjoy delicious meals together. We are committed to sustainability, sourcing our ingredients 
+            from local farms and producers whenever possible.
+        </p>
+
+        <h2>Meet Our Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="chef1.jpg" alt="Chef John">
+                <h3>Chef John Doe</h3>
+                <p>Head Chef</p>
+            </div>
+            <div class="team-member">
+                <img src="manager.jpg" alt="Manager Jane">
+                <h3>Jane Smith</h3>
+                <p>Restaurant Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="server.jpg" alt="Server Mike">
+                <h3>Mike Johnson</h3>
+                <p>Head Server</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
